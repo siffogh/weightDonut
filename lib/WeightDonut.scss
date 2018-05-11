@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+$lato-font: "Lato", sans-serif;
+
+svg {
+  width: 500px;
+  height: 500px;
+  transform: rotate(-90deg);
+
+  #progress {
+    stroke: #f8cda6;
+    stroke-width: 40px;
+  }
+  
+  #text {
+    transform: translateX(500px) rotate(90deg);
+    text-anchor: middle;
+    font-family: $lato-font;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
