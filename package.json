@@ -1,6 +1,6 @@
 {
-  "name": "weightDonut",
-  "version": "1.0.0",
+  "name": "weight-donut",
+  "version": "1.0.0-alpha1",
   "main": "index.js",
   "repository": "https://github.com/siffogh/weightDonut",
   "author": "Seif Eddine Ghezala <siffogh3@gmail.com>",
@@ -10,10 +10,9 @@
   },
   "dependencies": {
     "d3-scale": "^2.0.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "prop-types": "^15.6.1"
-    
+    "react-dom": "^16.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -28,5 +27,5 @@
     "eslint-plugin-react": "^7.4.0",
     "node-sass": "^4.9.0",
     "prettier": "^1.12.1"
-    }
+  }
 }
